@@ -5,6 +5,7 @@
 
 ## 環境構築
 * VSCodeで開発する場合は、拡張機能「Deno」を入れておく
+<!-- * 拡張機能「Tailwind CSS IntelliSense」ではtailwindの入力補完が効かなかったので(configファイルの名前が普通と違うせい)、「Twind Intellisense」を入れた -->
 ```bash
 irm https://deno.land/install.ps1 | iex # denoのインストール
 deno run -A -r https://fresh.deno.dev my-project  # freshのプロジェクト作成
